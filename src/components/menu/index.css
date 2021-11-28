@@ -1,0 +1,24 @@
+.btn-menu{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    transition: .3s;
+    padding: 5px 30px;
+    border:1px solid transparent;
+}
+
+.btn-menu:hover{
+    color: #007bff;
+    background-color: white;
+    border: 1px solid #007bff;
+}
+
+.menu{
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-weight: 800;
+}

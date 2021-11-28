@@ -1,0 +1,23 @@
+#cadastro-form{
+    width: 35%;
+    text-align: center;
+}
+
+#cadastro-form input{
+    margin: 1rem auto;
+    width: calc(100% - 1rem);
+    border-radius: 0.3rem;
+    padding: 0 0.7rem;
+    font-size: 1.15rem;
+    background-color: white;
+    border: 1px solid gray;
+    height: 40px;
+}
+
+#cadastro-form input+button{
+    margin: 2rem auto 1rem auto;
+}
+
+#cadastro-form div+button{
+    margin: 1rem auto 1rem auto;
+}
